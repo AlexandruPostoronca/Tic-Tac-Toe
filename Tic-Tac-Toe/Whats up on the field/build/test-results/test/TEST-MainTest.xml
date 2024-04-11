@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-04-11T08:51:28" hostname="DESKTOP-A97GDF4" time="0.014">
+  <properties/>
+  <testcase name="testDisplayGrid1" classname="MainTest" time="0.009"/>
+  <testcase name="testDisplayGrid2" classname="MainTest" time="0.001"/>
+  <testcase name="testDisplayGrid3" classname="MainTest" time="0.0"/>
+  <testcase name="testDisplayGrid4" classname="MainTest" time="0.001"/>
+  <testcase name="testDisplayGrid5" classname="MainTest" time="0.001"/>
+  <testcase name="testDisplayGrid6" classname="MainTest" time="0.0"/>
+  <testcase name="testDisplayGrid7" classname="MainTest" time="0.001"/>
+  <testcase name="testDisplayGrid8" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

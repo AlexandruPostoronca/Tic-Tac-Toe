@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Tic-Tac-Toe/Fight" />
+            <option value="$PROJECT_DIR$/Tic-Tac-Toe/First move" />
+            <option value="$PROJECT_DIR$/Tic-Tac-Toe/The user is the gamemaster" />
+            <option value="$PROJECT_DIR$/Tic-Tac-Toe/Welcome to the battlefield" />
+            <option value="$PROJECT_DIR$/Tic-Tac-Toe/Whats up on the field" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

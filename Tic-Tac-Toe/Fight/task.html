@@ -1,0 +1,77 @@
+<h2>Fight!</h2>
+
+<h3>Description</h3>
+<p>Our game is almost ready! Now let's combine what we’ve learned in the previous stages to make a game of tic-tac-toe
+    that two players can play from the beginning (with an empty grid) through to the end (until there is a draw, or one
+    of the players wins).
+</p>
+<p>The first player has to play as <code>X</code> and their opponent plays as <code>O</code>.</p>
+
+<h3>Objectives</h3>
+<p>In this stage, you should write a program that:</p>
+<ul>
+    <li>Prints an empty grid at the beginning of the game.</li>
+    <li>Creates a game loop where the program asks the user to enter the cell coordinates, analyzes the move for
+        correctness and shows a grid with the changes if everything is okay.
+    </li>
+    <li>Ends the game when someone wins or there is a draw.</li>
+    <li>You need to output the final result at the end of the game.</li>
+</ul>
+<p>Good luck!</p>
+
+<h3>Examples</h3>
+<p>The example below shows how your program should work.</p>
+<pre><code>---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates: 2 2
+---------
+| _ _ _ |
+| _ X _ |
+| _ _ _ |
+---------
+Enter the coordinates: 2 2
+This cell is occupied! Choose another one!
+Enter the coordinates: two two
+You should enter numbers!
+Enter the coordinates: 1 4
+Coordinates should be from 1 to 3!
+Enter the coordinates: 1 1
+---------
+| O _ _ |
+| _ X _ |
+| _ _ _ |
+---------
+Enter the coordinates: 3 3
+---------
+| O _ _ |
+| _ X _ |
+| _ _ X |
+---------
+Enter the coordinates: 2 1
+---------
+| O _ _ |
+| O X _ |
+| _ _ X |
+---------
+Enter the coordinates: 3 1
+---------
+| O _ _ |
+| O X _ |
+| X _ X |
+---------
+Enter the coordinates: 2 3
+---------
+| O _ _ |
+| O X O |
+| X _ X |
+---------
+Enter the coordinates: 3 2
+---------
+| O _ _ |
+| O X O |
+| X X X |
+---------
+X wins</code></pre>

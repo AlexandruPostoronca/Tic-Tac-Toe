@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Tic-Tac-Toe.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Tic-Tac-Toe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Fight/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Fight.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Fight/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Fight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Fight/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Fight.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Fight/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Fight.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Fight/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Fight.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Fight/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Fight.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/First move/Simple_Tic-Tac-Toe.Tic-Tac-Toe-First_move.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/First move/Simple_Tic-Tac-Toe.Tic-Tac-Toe-First_move.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/First move/Simple_Tic-Tac-Toe.Tic-Tac-Toe-First_move.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/First move/Simple_Tic-Tac-Toe.Tic-Tac-Toe-First_move.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/First move/Simple_Tic-Tac-Toe.Tic-Tac-Toe-First_move.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/First move/Simple_Tic-Tac-Toe.Tic-Tac-Toe-First_move.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/The user is the gamemaster/Simple_Tic-Tac-Toe.Tic-Tac-Toe-The_user_is_the_gamemaster.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/The user is the gamemaster/Simple_Tic-Tac-Toe.Tic-Tac-Toe-The_user_is_the_gamemaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/The user is the gamemaster/Simple_Tic-Tac-Toe.Tic-Tac-Toe-The_user_is_the_gamemaster.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/The user is the gamemaster/Simple_Tic-Tac-Toe.Tic-Tac-Toe-The_user_is_the_gamemaster.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/The user is the gamemaster/Simple_Tic-Tac-Toe.Tic-Tac-Toe-The_user_is_the_gamemaster.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/The user is the gamemaster/Simple_Tic-Tac-Toe.Tic-Tac-Toe-The_user_is_the_gamemaster.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Welcome to the battlefield/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Welcome_to_the_battlefield.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Welcome to the battlefield/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Welcome_to_the_battlefield.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Welcome to the battlefield/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Welcome_to_the_battlefield.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Welcome to the battlefield/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Welcome_to_the_battlefield.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Welcome to the battlefield/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Welcome_to_the_battlefield.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Welcome to the battlefield/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Welcome_to_the_battlefield.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Whats up on the field/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Whats_up_on_the_field.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Whats up on the field/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Whats_up_on_the_field.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Whats up on the field/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Whats_up_on_the_field.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Whats up on the field/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Whats_up_on_the_field.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Whats up on the field/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Whats_up_on_the_field.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe/Whats up on the field/Simple_Tic-Tac-Toe.Tic-Tac-Toe-Whats_up_on_the_field.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.test.iml" />
+    </modules>
+  </component>
+</project>

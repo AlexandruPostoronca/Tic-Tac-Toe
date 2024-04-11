@@ -1,0 +1,16 @@
+type: marketplace
+title: Simple Tic-Tac-Toe (3)
+language: English
+summary: "Everybody remembers this paper-and-pencil game from childhood: Tic-Tac-Toe,\
+  \ also known as Noughts and crosses or Xs and Os. A single mistake usually costs\
+  \ you the game, but thankfully it is simple enough that most players discover the\
+  \ best strategy quickly. Let’s program Tic-Tac-Toe and get playing!"
+programming_language: Java
+programming_language_version: 17
+content:
+  - Tic-Tac-Toe
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_17
+vendor:
+  name: Alexandru Umaneț

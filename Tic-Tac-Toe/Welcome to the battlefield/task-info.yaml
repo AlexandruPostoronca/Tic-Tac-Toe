@@ -1,0 +1,16 @@
+type: edu
+custom_name: Welcome to the battlefield
+files:
+  - name: src/Task.java
+    visible: true
+    encrypted_text: WEJEkhpCAL5HUFSlR3wpPyFwPlLyF7xM9SfDz0gpEyn0nnRv1DRCH8yrYFOH0XHOHgO9LdyG/Df2eQ+RljCg0l5DnEUeKTA9QVUGshDyB0x15qo84KXVMDkovKwjZyLMHQFuWTvMFMfAzFqetm8MDg==
+    learner_created: false
+  - name: test/TaskTest.java
+    visible: false
+    encrypted_text: ITs8Nv8EH6QWJG5nufD7nEsEPHevjd6ZOkKdl5CNK3XoTnNMhliQtiuGjK71enIYXZKzozSlkIcKbL6Sid2DxPCVTdGgAwh348em+ytIWMJxwh4kFZpSbv3IZgjpRLPaVjt96XCl71Mxe1QRXR6zExV1a5RX7KkHXnIdUG3utIU9KrEAnCmRrTcRxCi6z59sjOyX6v5ex50Wy86z63QjpPYuxkFmm+UjSGj7KhlIsnMHhbmkoFGfHZRK9WDooUK1TTjYop/zdeNjWs6wwQHeW4zDV5DkZRvNGz/vVPkaotCMeLVpHb3Ep+YRUJwcqXn2Shs2h4qHm/XzlI97wd+uqxTjC4J1g18QkAqdUe2vq2CbuIvK7JSLeys1Fk83QPUKVjnsh0uxWlyYndhhSHfsyle0OpCowJ27/w1d9s5U0Rhkiz7pXTK2tiC9TX8HCoaY8q8TNQB46eeYe87MnW+GB52ZIWIScy7An/lRQY65mpdUZFUarOfBwlRDQPdL44h5X2skRG7mh7A+Unv+bQGpyAuQfS+d/wmkMHCIyi6xWmVt5f9Oa9mtQe2P8+9MYFpk5N+LU8jwEPEBUcpQRN2WPlQlmo/V8+1vbe5nPGOdeL1Pqpp08J+raRl3l5eXMQtvNFOwtOzCatLuCHnfXJn0yhOrtdr+ko6secTAEH+oq4yCZLR9965wiOvVq8kJu7BoBLFZWA7I+TI6iki88eGpBa30lrj3MdkFUcoSJlH+NdS/KWu9HFfQ4k9wixPfvpUMFAPS1Li9XpYD8bxcsTSo6kiLPmebHn3irhPaa0a0Yuwm2YzhaZFUY8mQJ7Fa98rLfk5MkBW70LdaX7fZCcuqgU6t7pgWs5jegBlV8dxZhDnKDjHX4+oLpu/+ZiKFAYk9+2D++L3zFIFPtxWiWTJtDQULIXguKNMTCLdmwABbPoaUG74SRCejZxnQvAGgyfJZi+FQRrWFoYjGxqX2BRngL/eh4W/Zni1uldH6fZEvGw/xxQfhowBwJFsOoiTvGiZuANabG1RSfVSRJpyhREWA0g==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 11 Apr 2024 08:50:16 UTC"
+record: -1
