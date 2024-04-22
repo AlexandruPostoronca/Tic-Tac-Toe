@@ -1,136 +1,105 @@
 import java.util.Arrays;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Task {
-
     public static void main(String[] args) {
+        // put your code here
         Scanner scanner = new Scanner(System.in);
-
-        char[][] array = new char[3][3];
-        for (char[] chars : array) {
-            Arrays.fill(chars, '_');
-        }
-
-
-        coordinationChecking(array, scanner);
+        char[][] arrays = enterCells();
+        enterCoordinates(scanner, arrays);
     }
 
-    private static void checkEndOfGame(char[][] array) {
-        boolean xWon = hasWon(array, 'X');
-        boolean oWon = hasWon(array, 'Y');
+    private static void enterCoordinates(Scanner scanner, char[][] arrays) {
+        boolean counter = false;
+        char character = 'O';
+        int counterFinalGame=0;
+        do {
+            boolean fieldWinsX = false;
+            boolean fieldWinsO = false;
+            System.out.print("Enter the coordinates: ");
+            String text = scanner.nextLine().trim();
+            String[] inputText = text.split(" ");
+            char[][] grid = Arrays.copyOf(arrays, arrays.length);
 
-
-        int numberOfX = counterCheck(array, 'X');
-        int numberOfO = counterCheck(array, 'O');
-        int dif = Math.abs(numberOfX - numberOfO);
-
-
-        if (dif > 1) {
-            System.out.println("Impossible");
-        } else if (xWon && oWon) {
-            System.out.println("Impossible");
-        } else if (xWon) {
-            System.out.println("X wins");
-
-        } else if (oWon) {
-            System.out.println("O wins");
-        } else if (numberOfX + numberOfO == 9) {
-            System.out.println("Draw");
-        }
-    }
-
-    public static boolean diagonal(char[][] array, char ch) {
-        return array[0][0] == ch && array[1][1] == ch && array[2][2] == ch || array[0][2] == ch && array[1][1] == ch && array[2][0] == ch;
-    }
-
-    public static boolean vertical(char[][] array, char ch) {
-        return array[0][0] == ch && array[0][1] == ch && array[0][2] == ch ||
-               array[1][0] == ch && array[1][1] == ch && array[1][2] == ch ||
-               array[2][0] == ch && array[2][1] == ch && array[2][2] == ch;
-
-    }
-
-    public static boolean horizontal(char[][] array, char ch) {
-        return array[0][0] == ch && array[1][0] == ch && array[2][0] == ch ||
-               array[0][1] == ch && array[1][1] == ch && array[2][1] == ch ||
-               array[0][2] == ch && array[1][2] == ch && array[2][2] == ch;
-    }
-
-    public static int counterCheck(char[][] array, char ch) {
-        int number = 0;
-        for (char[] chars : array) {
-            for (char aChar : chars) {
-                if (aChar == ch) {
-                    number++;
-                }
-            }
-
-        }
-        return number;
-    }
-
-    public static void writeChar(int number1, int number2, char[][] array, char ch) {
-        array[number1][number2] = ch;
-    }
-
-    public static void print(char[][] array) {
-        System.out.println("---------");
-        System.out.println("| " + array[0][0] + " " + array[0][1] + " " + array[0][2] + " |");
-        System.out.println("| " + array[1][0] + " " + array[1][1] + " " + array[1][2] + " |");
-        System.out.println("| " + array[2][0] + " " + array[2][1] + " " + array[2][2] + " |");
-
-        System.out.println("---------");
-    }
-
-    public static void coordinationChecking(char[][] array, Scanner scanner) {
-        int number = 0;
-        while (number < 9) {
-            try {
-                System.out.print("Enter the coordinates: ");
-                int numberInput1 = scanner.nextInt();
-                int numberInput2 = scanner.nextInt();
-                scanner.nextLine();
-                numberInput2--;
-                numberInput1--;
-
-
-                if ((numberInput1 < 0 || numberInput1 > 2) || (numberInput2 < 0 || numberInput2 > 2)) {
-                    System.out.println("Coordinates should be from 1 to 3!");
-
-                } else if (number % 2 == 0) {
-
-                    if (array[numberInput1][numberInput2] == '_') {
-                        writeChar(numberInput1, numberInput2, array, 'X');
-                        number++;
-                    } else {
-                        System.out.println("This cell is occupied! Choose another one!");
-                    }
-
-                } else {
-                    if (array[numberInput1][numberInput2] == '_') {
-                        writeChar(numberInput1, numberInput2, array, 'O');
-                        number++;
-                    } else {
-                        System.out.println("This cell is occupied! Choose another one!");
-                    }
-
-                }
-
-
-                print(array);
-                checkEndOfGame(array);
-
-            } catch (InputMismatchException ex) {
+            if (inputText.length != 2 || inputText[0].length() != 1 || inputText[1].length() != 1 ||
+                    !Character.isDigit(inputText[0].charAt(0)) || !Character.isDigit(inputText[1].charAt(0))) {
                 System.out.println("You should enter numbers!");
-                scanner.nextLine();
-                print(array);
+                continue;
             }
-        }
 
+            int x = Integer.parseInt(inputText[0]);
+            int y = Integer.parseInt(inputText[1]);
+
+            if (x >= 1 && x <= 3 && y >= 1 && y <= 3) {
+                if (grid[x][y]=='_') {
+                    character = character=='X' ? 'O' : 'X';
+                    counterFinalGame++;
+                    grid[x][y] = character;
+                    showGrid(grid);
+                    fieldWinsX = fieldWins(grid, 'X');
+                    fieldWinsO = fieldWins(grid, 'O');
+                } else {
+                    System.out.println("This cell is occupied! Choose another one!");
+                }
+            } else {
+                System.out.println("Coordinates should be from 1 to 3!");
+            }
+
+            if (fieldWinsX) {
+                System.out.println("X wins");
+                counter=true;
+            }
+            if (fieldWinsO){
+                System.out.println("O wins");
+                counter=true;
+            }if(counterFinalGame>8){
+                System.out.println("Draw");
+                counter=true;
+            }
+        } while (!counter);
     }
 
-    public static boolean hasWon(char[][] array, char ch) {
-        return diagonal(array, ch) || vertical(array, ch) || horizontal(array, ch);
+    private static char[][] enterCells() {
+        char[][] grid = new char[4][4];
+        char strings = '_';
+        int conter = 0;
+
+        for (int i = 1; i < grid.length; i++) {
+            for (int j = 1; j < grid[i].length; j++) {
+                grid[i][j] = strings;
+                conter++;
+            }
+        }
+        showGrid(grid);
+        return grid;
+    }
+
+    private static void showGrid(char[][] grid) {
+        System.out.println("---------");
+        System.out.println("| " + grid[1][1] + " " + grid[1][2] + " " + grid[1][3] + " |");
+        System.out.println("| " + grid[2][1] + " " + grid[2][2] + " " + grid[2][3] + " |");
+        System.out.println("| " + grid[3][1] + " " + grid[3][2] + " " + grid[3][3] + " |");
+        System.out.println("---------");
+    }
+
+    private static boolean fieldWins(char[][] grid, char n) {
+        return (gameRow(grid, n) || gameColumn(grid, n) || gameDeagonal(grid, n)) ? true : false;
+    }
+
+    private static boolean gameDeagonal(char[][] ticTac, char n) {
+        return ticTac[1][1]==n && ticTac[2][2]==n && ticTac[3][3]==n ||
+                ticTac[1][3]==n && ticTac[2][2]==n && ticTac[3][1]==n;
+    }
+
+    private static boolean gameColumn(char[][] ticTac, char n) {
+        return ticTac[1][1]==n && ticTac[2][1]==n && ticTac[3][1]==n ||
+                ticTac[1][2]==n && ticTac[2][2]==n && ticTac[3][2]==n ||
+                ticTac[1][3]==n && ticTac[2][3]==n && ticTac[3][3]==n;
+    }
+
+    public static boolean gameRow(char[][] ticTac, char n) {
+        return ticTac[1][1]==n && ticTac[1][2]==n && ticTac[1][3]==n ||
+                ticTac[2][1]==n && ticTac[2][2]==n && ticTac[2][3]==n ||
+                ticTac[3][1]==n && ticTac[3][2]==n && ticTac[3][3]==n;
     }
 }
